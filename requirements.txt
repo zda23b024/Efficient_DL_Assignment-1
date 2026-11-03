@@ -1,0 +1,6 @@
+# CPU or CUDA torch builds are both supported; match torch and torchvision.
+# Verified locally: torch 2.15.0+cpu / torchvision 0.29.2+cpu / Python 3.12.
+torch>=2.4,<3
+torchvision>=0.19,<1
+numpy>=1.26,<3
+matplotlib>=3.8,<4
